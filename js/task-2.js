@@ -26,7 +26,7 @@ const images = [
 ];
 
 function addElement(item) {
-  return `<img class="task2Img" src=${item.url} alt=${item.alt} width="100">`  
+  return `<li><img class="task2Img" src=${item.url} alt=${item.alt} width="100"></li>`  
 }
 
 function addElementS(items) {

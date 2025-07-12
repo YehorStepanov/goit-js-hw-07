@@ -140,8 +140,12 @@ label input:active {
   row-gap: 48px;
   width: 1168px;
 }
-.task2Img {
+.gallery li{
   width: calc((100% - 48px) / 3);
+  }
+.task2Img {
+  height: 100%;
+  width: 100%;
 }
 
 #categories {
